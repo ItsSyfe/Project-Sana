@@ -1,0 +1,30 @@
+{
+  "name": "project-sana",
+  "version": "1.0.0",
+  "description": "Music/Multipurpose Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsSyfe/Project-Sana.git"
+  },
+  "author": "Syfe",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ItsSyfe/Project-Sana/issues"
+  },
+  "homepage": "https://github.com/ItsSyfe/Project-Sana#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "chalk": "^4.1.0",
+    "discord.js": "^12.2.0",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "log4js": "^6.3.0",
+    "moment": "^2.27.0",
+    "winston": "^3.3.3",
+    "ytdl-core": "^3.2.1"
+  }
+}
